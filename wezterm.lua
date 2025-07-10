@@ -6,16 +6,19 @@ local wezterm = require 'wezterm'
 local config = wezterm.config_builder()
 
 -- Settings
-config.enable_wayland = false
+config.enable_wayland = true
 -- Color & Window conf
-config.color_scheme = 'Kanagawa Dragon (Gogh)'
-config.window_background_opacity = 0.6
-config.window_decorations = 'RESIZE'
+config.color_scheme = 'nord'
+config.window_background_opacity = 0.9
+config.window_decorations = 'NONE'
 config.window_close_confirmation = 'AlwaysPrompt'
 config.scrollback_lines = 3000
 config.default_workspace = 'home'
 -- Padding
 config.window_padding = {
+  left = 1,
+  right = 1,
+  top = 0,
   bottom = 0,
 }
 -- Font
@@ -43,7 +46,7 @@ config.enable_tab_bar = true
 config.use_fancy_tab_bar = false
 config.hide_tab_bar_if_only_one_tab = true
 config.show_new_tab_button_in_tab_bar = false
-config.show_tab_index_in_tab_bar = false
+config.show_tab_index_in_tab_bar = true
 config.tab_bar_at_bottom = true
 
 return config
