@@ -9,7 +9,7 @@ local config = wezterm.config_builder()
 config.enable_wayland = false
 -- Color & Window conf
 config.color_scheme = 'Kanagawa Dragon (Gogh)'
-config.window_background_opacity = 0.9
+config.window_background_opacity = 0.6
 config.window_decorations = 'RESIZE'
 config.window_close_confirmation = 'AlwaysPrompt'
 config.scrollback_lines = 3000
@@ -20,7 +20,7 @@ config.window_padding = {
 }
 -- Font
 config.font = wezterm.font('Hack Nerd Font Mono')
-config.font_size = 13
+config.font_size = 18
 config.line_height = 1
 -- Keys
 -- Leader is the same as my old tmux prefix
