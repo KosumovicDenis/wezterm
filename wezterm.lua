@@ -8,8 +8,8 @@ local config = wezterm.config_builder()
 -- Settings
 config.enable_wayland = true
 -- Color & Window conf
-config.color_scheme = 'nord'
-config.window_background_opacity = 0.9
+config.color_scheme = 'Night Owl (Gogh)'
+config.window_background_opacity = 0.85
 config.window_decorations = 'NONE'
 config.window_close_confirmation = 'AlwaysPrompt'
 config.scrollback_lines = 3000
